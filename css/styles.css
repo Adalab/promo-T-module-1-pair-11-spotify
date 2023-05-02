@@ -1,3 +1,71 @@
-    *{
-        background-color: antiquewhite;
+   :root {
+       --colorprimer:rgb(255, 255, 255);
+       --colorsecund:rgb(0, 0, 0);
+
+   }
+   *{ 
+    font-family: 'Roboto', sans-serif;
+
+   }
+   .my-container { 
+     color:var(--colorprimer);
+     background:var(--colorsecund);
+     width: 100%;
+     height: 5rem;
+     padding: 1rem;
+     font-size: 2rem;
+     flex-direction: row;
+     display: flex;
+     justify-content: space-between;
+  }
+  .logo {
+
+  }
+  .menu {
+
+  }
+
+  .titulo{
+
+  }
+  .titulo2 {
+
+  }
+  .titutlo3 {
+
+  }
+  .my-container1 {
+
+
+  }
+
+   .sectionblue {
+    color:var(--colorprimer);
+    background-color: hsl(240, 100%, 50%); 
+    background-image: url(/images/premium_dancer.png);
+    background-repeat: no-repeat;
+    background-size: 10rem;
+   }
+
+  
+    .botonverde {
+  
+        background-color: rgb(157, 247, 157);
+  }
+    
+
+   .sectionwite {
+    color:#000000;
+    background-color: var(--colorprimer);
+   
+   }
+   
+    .benefi {
+
     }
+   
+   .my-container2 {
+    color: var(--colorprimer);
+    background-color: var(--colorsecund);
+
+   }
