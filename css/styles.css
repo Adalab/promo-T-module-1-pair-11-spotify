@@ -20,6 +20,7 @@
       display: flex;
       justify-content: space-between;
       position: fixed;
+      z-index: 1;
     }
 
     .logo {
@@ -71,15 +72,11 @@
       height: 50vh;
       position: relative;
       top: 130px;
-
-
-
-
-
     }
 
 
     .buttongreen {
+      width: 100%;
       color: var(--colorprimer);
       background-color: #1ED760;
       text-decoration: none;
@@ -87,6 +84,8 @@
       padding: 6px 24px;
       font-size: 12px;
       font-weight: bold;
+      display: block;
+      text-align: center;
 
     }
 
