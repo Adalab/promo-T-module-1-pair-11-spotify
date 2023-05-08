@@ -55,10 +55,20 @@
     }
 
     .titulo3 {
-      font-size: 2rem;
+    font-size: 1rem;
+      
+    }
 
+    .parrafo1{
+      background-color: chocolate;
+      width: 100px;
+      
+      
+   
 
     }
+
+
 
     .main-container1 {}
 
@@ -92,8 +102,12 @@
 
     .sectionwite {
       color: #000000;
-      background-color: var(--colorprimer);
+      background-color: pink;         /* var(--colorprimer); */
 
+    }
+    .images{
+      width: 2rem;
+    
     }
 
     .benefi {}
