@@ -1,329 +1,221 @@
-   :root {
-     --colorprimer: rgb(255, 255, 255);
-     --colorsecund: rgb(0, 0, 0);
-     --fontfamily: 'Roboto', sans-serif;
-   }
-
-    
-
-    * {
-      font-family: 'Roboto', sans-serif;
-
-    }
-
-    .header-container {
-      color: var(--colorprimer);
-      background: var(--colorsecund);
-      width: 100%;
-      height: 5rem;
-      padding: 2rem;
-      font-size: 2rem;
-      flex-direction: row;
-      display: flex;
-      justify-content: space-between;
-      position: fixed;
-      z-index: 1;
-    }
-
-    .logo {
-      display: flex;
-      width: 9rem;  
-      height: 4rem;
-
-    }
-
-    .menu {
-      display: flex; 
-      width: 4rem;
-      height: 4rem;
-      
-
-    }
-
-      .header-menu{
-        display: none;
-      }
-
-      .menulist{
-       
-      }
-
-    .titulo {
-      font-size: 3rem; 
-      font-weight: bold;
-      padding: 1rem;
-    }
-
-
-
-    .titulo2 {
-      display: flex;
-      justify-content: center;
-      font-size:2.5rem;
-      padding: 1rem;
-      color: #000000;
-      background-color: #1ED760;
-      height: 40px;
-      width: 60px;
-     
-    }
-
-    .titulo3 {
-     display: flex;
-     justify-content: center;
-     font-size: 2rem;
-     font-weight: bold;
-    }
-
-    .parrafo1{
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-    }
+:root {
+  --colorprimer: rgb(255, 255, 255);
+  --colorsecund: rgb(0, 0, 0);
+  --fontfamily: 'Roboto', sans-serif;
+}
 
-    .images{
+body {
+  font-family: var(--fontfamily);
+}
 
-      width: 30px;
-      height: 30px;
-    }
 
-    .main-container1 {
-      background-color: greenyellow;
-      
-    }
 
-    .sectionblue {
-      color: var(--colorprimer);
-      background-color: hsl(240, 100%, 50%);
-      background-image: url(../images/premium_dancer.png);
-      background-position: right;
-      background-repeat: no-repeat;
-      padding: 20px;
-      height: 50vh;
-      position: relative;
-      top: 130px;
-    }
+.header-container {
+  color: var(--colorprimer);
+  background: var(--colorsecund);
+  padding: 10px;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  box-sizing: border-box;
 
+}
 
-    .buttongreen {
-      width: 100%;
-      color: var(--colorprimer);
-      background-color: #1ED760;
-      text-decoration: none;
-      border-radius: 20px;
-      padding: 6px 24px;
-      font-size: 12px;
-      font-weight: bold;
-      display: block;
-      text-align: center;
-      width:150px;
+.logo {
+  width: 80px;
+  height: 24px;
 
-    }
 
+}
 
-    .sectionwite {
-      color: #000000;
-      background-color: var(--colorprimer);
-     
-    }
+.menu {
+  width: 24px;
+  height: 24px;
 
-    .benefi {
-     
-    }
 
+}
 
 
 
 
-    .footer {
-      color: var(--colorprimer);
-      background-color: var(--colorsecund);
-      padding: 30px 20px;
-      display: flex;
-      align-items: flex-end;
-    }
+.titulo2 {
+  font-size: 2.5rem;
+  padding: 1rem;
 
 
-   .header-container {
-     color: var(--colorprimer);
-     background: var(--colorsecund);
-     padding: 10px;
-     width: 100%;
-     flex-direction: row;
-     display: flex;
-     justify-content: space-between;
-     position: fixed;
-     z-index: 1;
-     box-sizing: border-box;
+}
 
-   }
+.titulo3 {
+  font-size: 2rem;
 
-   .logo {
-     width: 80px;
-     height: 24px;
 
+}
 
-   }
+.main-container1 {}
 
-   .menu {
-     width: 24px;
-     height: 24px;
+.sectionblue {
+  /*display: flex;
+  flex-direction: column;
+  justify-content: space-between;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: var(--colorprimer);
+  background-color: hsl(240, 100%, 50%);
 
+  padding: 20px 10px 30px;
+  height: 50vh;
 
-   }
 
+}
 
+.sectionblue .titulo {
 
+  font-size: 2.3rem;
+  font-weight: bold;
+  padding: 0;
+  font-family: var(--fontfamily);
 
-   .titulo2 {
-     font-size: 2.5rem;
-     padding: 1rem;
+}
 
+.sectionblue .parrafo1 {
+  font-size: 1rem;
+  margin: 16px 0;
+  line-height: 1.5rem;
 
-   }
+}
 
-   .titulo3 {
-     font-size: 2rem;
+.sectionblue .parrafo2 {
+  font-size: 0.5rem;
+  line-height: 1rem;
+  margin-top: 30px;
+}
 
 
-   }
 
-   .main-container1 {}
+.buttongreen {
+  color: var(--colorprimer);
+  background-color: #1ED760;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 14px 24px;
+  font-size: 12px;
+  font-weight: 500;
+  display: block;
+  text-align: center;
 
-   .sectionblue {
-     /*display: flex;
-     flex-direction: column;
-     justify-content: space-between;*/
-     display: flex;
-     flex-direction: column;
-     justify-content: flex-end;
-     color: var(--colorprimer);
-     background-color: hsl(240, 100%, 50%);
+}
 
-     padding: 20px 10px 30px;
-     height: 50vh;
 
+.sectionwite {
+  color: #000000;
+  background-color: var(--colorprimer);
 
-   }
+}
 
-   .sectionblue .titulo {
+.benefi {}
 
-     font-size: 2.3rem;
-     font-weight: bold;
-     padding: 0;
-     font-family: var(--fontfamily);
+.footer {
+  color: var(--colorprimer);
+  background-color: var(--colorsecund);
+  padding: 30px 20px;
+  display: flex;
+  align-items: flex-end;
 
-   }
 
-   .sectionblue .parrafo1 {
-     font-size: 1rem;
-     margin: 16px 0;
-     line-height: 1.5rem;
 
-   }
+}
 
-   .sectionblue .parrafo2 {
-     font-size: 0.5rem;
-     line-height: 1rem;
-     margin-top: 30px;
-   }
 
+.footer1 {
+  width: 60%;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: flex-end;
+}
 
+.footer a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
 
-   .buttongreen {
-     color: var(--colorprimer);
-     background-color: #1ED760;
-     text-decoration: none;
-     border-radius: 30px;
-     padding: 14px 24px;
-     font-size: 12px;
-     font-weight: 500;
-     display: block;
-     text-align: center;
+}
 
-   }
+.footer2 {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  width: 40%;
+  gap: 10px;
+}
 
+.espana {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
 
-   .sectionwite {
-     color: #000000;
-     background-color: var(--colorprimer);
+}
 
-   }
+.espana img {
+  height: 20px;
+  margin-left: 6px;
 
-   .benefi {}
+}
 
-   .footer {
-     color: var(--colorprimer);
-     background-color: var(--colorsecund);
-     padding: 30px 20px;
-     display: flex;
-     align-items: flex-end;
+.legal {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
 
+@media screen and (max-width: 480px) {
+  .menulist {
+    display: none;
+  }
 
+}
 
-   }
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .sectionblue {
 
 
-   .footer1 {
-     width: 60%;
-     height: 60px;
-     display: flex;
-     flex-wrap: wrap;
-     gap: 10px;
-     align-items: flex-end;
-   }
+    background-image: url(../images/premium_dancer.png);
+    background-position: right;
+    background-repeat: no-repeat;
+  }
 
-   .footer a {
-     text-decoration: none;
-     color: white;
-     display: inline-block;
+}
 
-   }
+@media screen and (min-width: 1024px) {}
 
-   .footer2 {
-     height: 100px;
-     display: flex;
-     flex-direction: column;
-     text-align: right;
-     width: 40%;
-     gap: 10px;
-   }
+.legal {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
 
-   .espana {
-     display: flex;
-     flex-direction: row;
-     justify-content: end;
+@media screen and (max-width: 480px) {
+  .menulist {
+    display: none;
+  }
 
-   }
+}
 
-   .espana img {
-     height: 20px;
-     margin-left: 6px;
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .sectionblue {
 
-   }
 
-   .legal {
-     display: flex;
-     flex-direction: row;
-     justify-content: end;
-   }
+    background-image: url(../images/premium_dancer.png);
+    background-position: right;
+    background-repeat: no-repeat;
+  }
 
-   @media screen and (max-width: 480px) {
-     .menulist {
-       display: none;
-     }
+}
 
-   }
-
-   @media screen and (min-width: 481px) and (max-width: 1024px) {
-     .sectionblue {
-
-
-       background-image: url(../images/premium_dancer.png);
-       background-position: right;
-       background-repeat: no-repeat;
-     }
-
-   }
-
-   @media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {}
